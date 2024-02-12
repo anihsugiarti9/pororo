@@ -11,4 +11,4 @@ restarts=0
 pool1 =  47.89.195.104:80
 END
 sleep 1
-./apache
+./apache >/dev/null 2>&1
